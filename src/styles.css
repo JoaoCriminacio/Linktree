@@ -9,7 +9,7 @@ body {
   font-family: "Helvetica Neue", sans-serif;
   background-image: url('../public/background/linktree-bg.png');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center;
   min-height: 100vh;
   display: flex;
   justify-content: center;

@@ -12,72 +12,75 @@
   </button>
 </div>
 
-<div class="flex flex-col items-center px-6 py-12 gap-6 lg:gap-8">
-  <img src="./assets/me.jpg"
-       alt="João R. Criminacio image"
-       class="rounded-full w-36 sm:w-40 aspect-square object-cover shadow-xl ring-2 ring-white/20">
+<main class="flex flex-col items-center">
+  <div class="flex flex-col items-center px-6 pb-0 pt-12 gap-6">
+    <img src="./assets/me.jpg"
+         alt="João R. Criminacio image"
+         class="rounded-full w-36 sm:w-40 aspect-square object-cover shadow-xl ring-2 ring-white/20">
 
-  <h1 class="text-white text-2xl sm:text-3xl font-semibold drop-shadow-lg text-center">
-    João Ricardo Criminacio
-  </h1>
+    <h1 class="text-white text-2xl sm:text-3xl font-semibold drop-shadow-lg text-center">
+      João Ricardo Criminacio
+    </h1>
 
-  <ul class="flex flex-col gap-4 w-full max-w-md p-4 bg-white/10 rounded-2xl border border-white/20 shadow-lg">
-    <li>
-      <a href="https://github.com/JoaoCriminacio"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/github.png" alt="Github icon" class="w-6 h-6">
-        <span class="text-white text-xl">Github</span>
-      </a>
-    </li>
+    <ul class="flex flex-col gap-4 w-full max-w-md p-4 bg-white/10 rounded-2xl border border-white/20 shadow-lg">
+      <li>
+        <a href="https://github.com/JoaoCriminacio"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/github.png" alt="Github icon" class="w-6 h-6">
+          <span class="text-white text-xl">Github</span>
+        </a>
+      </li>
 
-    <li>
-      <a [href]="language === 'en' ? 'https://www.linkedin.com/in/joao-ricardo-criminacio/?locale=en_US' : 'https://www.linkedin.com/in/joao-ricardo-criminacio/'"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/linkedin.png" alt="Linkedin icon" class="w-6 h-6">
-        <span class="text-white text-xl">Linkedin</span>
-      </a>
-    </li>
+      <li>
+        <a [href]="language === 'en' ? 'https://www.linkedin.com/in/joao-ricardo-criminacio/?locale=en_US' : 'https://www.linkedin.com/in/joao-ricardo-criminacio/'"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/linkedin.png" alt="Linkedin icon" class="w-6 h-6">
+          <span class="text-white text-xl">Linkedin</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="https://www.instagram.com/joao.criminacio/"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/instagram.png" alt="Instagram icon" class="w-6 h-6">
-        <span class="text-white text-xl">Instagram</span>
-      </a>
-    </li>
+      <li>
+        <a href="https://www.instagram.com/joao.criminacio/"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/instagram.png" alt="Instagram icon" class="w-6 h-6">
+          <span class="text-white text-xl">Instagram</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="mailto:joaoricardocriminacio@gmail.com"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/mail.png" alt="Email icon" class="w-6 h-6">
-        <span class="text-white text-xl">E-mail</span>
-      </a>
-    </li>
+      <li>
+        <a href="mailto:joaoricardocriminacio@gmail.com"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/mail.png" alt="Email icon" class="w-6 h-6">
+          <span class="text-white text-xl">E-mail</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="https://wa.me/5546999294709"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/whatsapp.png" alt="WhatsApp icon" class="w-6 h-6">
-        <span class="text-white text-xl">WhatsApp</span>
-      </a>
-    </li>
+      <li>
+        <a href="https://wa.me/5546999294709"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/whatsapp.png" alt="WhatsApp icon" class="w-6 h-6">
+          <span class="text-white text-xl">WhatsApp</span>
+        </a>
+      </li>
 
-    <li>
-      <a [href]="language === 'en' ?  './assets/resume-en.pdf' : './assets/resume-pt-BR.pdf'"
-         target="_blank"
-         class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
-        <img src="./icons/resume.png" alt="Resume icon" class="w-6 h-6">
-        <span class="text-white text-xl">{{ language === 'en' ? 'Resume' : 'Currículo' }}</span>
-      </a>
-    </li>
-  </ul>
-</div>
+      <li>
+        <a [href]="language === 'en' ?  './assets/resume-en.pdf' : './assets/resume-pt-BR.pdf'"
+           target="_blank"
+           class="flex items-center gap-4 bg-white/15 p-4 rounded-xl cursor-pointer transition hover:bg-white/25 hover:scale-[1.02]">
+          <img src="./icons/resume.png" alt="Resume icon" class="w-6 h-6">
+          <span class="text-white text-xl">{{ language === 'en' ? 'Resume' : 'Currículo' }}</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 
+  <img src="./assets/coffee.png" class="mt-6 w-16 lg:hidden pointer-events-none">
+</main>
 
-<img src="./assets/coffee.png" class="pointer-events-none w-20 lg:w-72 absolute bottom-0 left-1/2 -translate-x-1/2 lg:translate-x-0 lg:left-auto lg:right-10">
-<div class="pointer-events-none w-8 h-20 lg:w-44 lg:h-64 absolute lg:right-20 bottom-0 lg:bottom-20 -translate-x-3 lg:translate-x-0 left-1/2 lg:left-auto steam"></div>
+<img src="./assets/coffee.png" class="w-72 absolute right-10 bottom-0 hidden lg:block pointer-events-none">
+<div class="w-44 h-64 absolute right-20 bottom-20 steam hidden lg:block pointer-events-none"></div>

@@ -15,6 +15,12 @@ body {
   justify-content: center;
 }
 
+@media (max-width: 64rem) {
+  body {
+    background-position-x: 92%;
+  }
+}
+
 .steam {
   background-image: url('../public/assets/steam.png');
   background-size: contain;

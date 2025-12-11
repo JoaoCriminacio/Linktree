@@ -7,7 +7,9 @@ html, body {
 body {
   margin: 0;
   font-family: "Helvetica Neue", sans-serif;
+  background-color: #844738;
   background-image: url('../public/background/linktree-bg.png');
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -17,7 +19,7 @@ body {
 
 @media (max-width: 64rem) {
   body {
-    background-position-x: 92%;
+    background-position: right;
   }
 }
 

@@ -1,6 +1,7 @@
 <h1 align="center"> Linktree </h1>
 <p align="center">This is a personal project, with some links to my social networks and professional data.</p>
-<img width="1920" height="911" alt="Project Image" src="https://github.com/user-attachments/assets/512e9281-8ce0-4148-ab03-2dd488ec88c5" />
+<img width="1920" height="911" alt="Project Image" src="https://github.com/user-attachments/assets/073d5fcb-a6e4-4d56-a740-431404974afc" />
+
 
 ## 🛠 Technologies
 

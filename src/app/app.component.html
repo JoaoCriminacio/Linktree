@@ -1,14 +1,14 @@
-<div class="absolute top-3 right-3 flex gap-3">
-  <button (click)="changeLanguage('en')"
-          [ngClass]="{ 'opacity-100': language === 'en', 'opacity-40': language !== 'en' }"
-          class="transition hover:opacity-100 cursor-pointer">
-    <img src="./icons/usa.png" alt="USA flag" class="w-7 h-7">
-  </button>
-
+<div class="absolute top-3 left-3 flex gap-3">
   <button (click)="changeLanguage('pt-BR')"
           [ngClass]="{ 'opacity-100': language === 'pt-BR', 'opacity-40': language !== 'pt-BR' }"
           class="transition hover:opacity-100 cursor-pointer">
     <img src="./icons/brazil.png" alt="Brazil flag" class="w-7 h-7">
+  </button>
+  
+  <button (click)="changeLanguage('en')"
+          [ngClass]="{ 'opacity-100': language === 'en', 'opacity-40': language !== 'en' }"
+          class="transition hover:opacity-100 cursor-pointer">
+    <img src="./icons/usa.png" alt="USA flag" class="w-7 h-7">
   </button>
 </div>
 
@@ -74,6 +74,15 @@
            class="flex items-center gap-4 bg-black/15 p-4 rounded-xl cursor-pointer transition hover:bg-black/30 hover:-translate-y-0.5">
           <img src="./icons/instagram.png" alt="Instagram icon" class="w-6 h-6">
           <span class="text-white text-xl">Instagram</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://open.spotify.com/user/joaoricardocriminacio?si=ca9b262234a14798"
+           target="_blank"
+           class="flex items-center gap-4 bg-black/15 p-4 rounded-xl cursor-pointer transition hover:bg-black/30 hover:-translate-y-0.5">
+          <img src="./icons/spotify.png" alt="Spotify icon" class="w-6 h-6">
+          <span class="text-white text-xl">Spotify</span>
         </a>
       </li>
     </ul>
